@@ -50,7 +50,9 @@ Using parametric sweeps in SPICE, we identified the maximum operating frequency 
 * **Initial Setup:** Identified $f_{max} \approx 2.44\text{ MHz}$ for $R_4 = 7\text{ k}\Omega$.
 * **Optimization:** By reducing $R_2$ to $1\text{ k}\Omega$, the circuit achieved a higher $f_{max} \approx 3.00\text{ MHz}$ and an improved Slew Rate of $0.438\text{ V/μs}$.
 
+![Waveform Distortion at High Frequency](images/spice_distortion.png)
 
+*The rounding of the square wave edges (V2) at 7kΩ indicates the transition into the slew-rate limited region.*
 
 ### Amplitude & Frequency Control
 We demonstrated that the output amplitude can be scaled independently of the frequency. By doubling the Zener breakdown voltage ($V_Z$) and proportionally decreasing the $RC$ time constant, we successfully increased the peak amplitude from $7.3\text{ V}$ to $10.85\text{ V}$ while maintaining a constant frequency.
