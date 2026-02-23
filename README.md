@@ -63,10 +63,11 @@ We analyzed the circuit's behavior across a wide temperature range ($-20^\circ C
 * **Optimal Performance:** Observed at $20^\circ C$, where charging/discharging cycles reached maximum linearity.
 
 ![Temperature Sweep Analysis](images/ex2_temp_sweep.png)
+## 📂 Repository Structure
+
+* 📂 **[Assignment](./assignment/)**: Original laboratory instructions and specifications (PDF).
+* 📂 **[Report](./report/)**: Detailed technical analysis and results for both exercises (PDF).
+* 📂 **[Images](./images/)**: High-resolution oscilloscope captures and SPICE plots.
 
 ---
-
-## 📂 Repository Structure
-* 📄 `Electronics_III_Report.pdf`: Full technical report for both exercises.
-* 📂 `Images/`: High-resolution oscilloscope captures and SPICE plots.
-* 📂 `Simulations/`: `.asc` files for LTspice/PSpice.
+*Developed by ECE AUTh students as part of the Electronics III course.*
