@@ -57,7 +57,7 @@ The following waveforms demonstrate the precise timing between the internal stag
 ![System Waveforms](images/ex2_waveforms_all.png)
 
 ### 🌡️ Thermal Stability (Temperature Sweep)
-We analyzed the circuit's behavior across a wide temperature range ($ -20^\circ C$ to $+70^\circ C$):
+We analyzed the circuit's behavior across a wide temperature range ($-20^\circ C$ to $+70^\circ C$):
 * **Low Temperatures (-20°C):** Reduced amplitude and delayed oscillation due to lower component conductivity.
 * **High Temperatures (+70°C):** Increased instability and frequency fluctuations caused by thermal noise and variations in capacitor/transistor characteristics.
 * **Optimal Performance:** Observed at $20^\circ C$, where charging/discharging cycles reached maximum linearity.
