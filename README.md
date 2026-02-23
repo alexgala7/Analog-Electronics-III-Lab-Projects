@@ -8,7 +8,7 @@ The generator is based on an astable multivibrator topology consisting of two pr
 1.  **Schmitt Trigger (U1):** A comparator with positive feedback that generates the square wave ($V_2$). Clamping Zener diodes (1N750) are used to stabilize the output levels.
 2.  **Inverting Integrator (U2):** A stage that integrates the square wave to produce a linear triangular ramp ($V_{out}$).
 
-
+![Circuit Schematic](images/circuit_schematic.png)
 
 ## 🔍 Theoretical Framework
 
@@ -33,6 +33,14 @@ The project involved a rigorous comparison between theoretical values, laborator
 | **Triangular (Vout)** | $7.50\text{ V}$ | $7.00\text{ V}$ | $7.30\text{ V}$ |
 | **Slew Rate (SR)** | - | $0.313\text{ V/μs}$ | $0.318\text{ V/μs}$ |
 
+#### Visual Verification (Lab vs. SPICE)
+| Laboratory Measurement (Oscilloscope) | SPICE Simulation Output |
+| :---: | :---: |
+| ![Lab Results](images/lab_waveforms_vout_v2.png) | ![Spice Waveforms](images/spice_waveforms.png) |
+
+*The images above demonstrate the core waveforms ($V_{out}$ and $V_2$). Additionally, the following capture shows the hysteresis levels ($V_1$ vs $V_2$):*
+
+![Hysteresis Analysis](images/lab_waveforms_v1_v2.png)
 
 
 ## 🚀 Advanced Parametric Analysis
